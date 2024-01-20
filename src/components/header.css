@@ -32,7 +32,7 @@
   padding-left: 1.5em;
 }
 
-a[href="/"] {
+.home {
   border-bottom: 0.1em solid var(--text-color);
 }
 

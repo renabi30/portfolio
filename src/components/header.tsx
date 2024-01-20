@@ -1,19 +1,30 @@
-import './Header.css';
+import './header.css';
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="header">
+    <header className="header">
       <div className="left-section">
-        <span className="name">Rena Bi</span>
+        <span className="name"></span>
       </div>
       <div className="right-section">
-        <a href="/">Home</a>
+        <NavLink style={({ isActive }) => {
+            return {
+                borderBottom: isActive ? "0.1em solid var(--text-color)" : "",
+            };
+        }} to={'/'}>Home</NavLink>
         <span></span>
-        <a href="#about">About</a>
+        <NavLink style={({ isActive }) => {
+            return {
+                borderBottom: isActive ? "0.1em solid var(--text-color)" : "",
+            };
+        }} to={'/about'}>About</NavLink>
         <span></span>
-        <button>Resume</button>
+        <button>
+          <a href="" target = "_blank">Resume</a>
+        </button>
       </div>
-    </div>
+    </header>
   );
 };
 
