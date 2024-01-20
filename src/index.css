@@ -6,6 +6,8 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.833);
   background-color: rgba(74, 139, 106, 0.749);
+  --accent-color: rgba(182, 255, 219, 0.683);
+  --text-color: rgba(255, 255, 255, 0.833);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,14 +15,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* a {
+a {
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  color: inherit;
+  text-decoration: none;
+  transition: border-bottom 0.25s;
+  border-bottom: 0.1em solid transparent;
 }
 a:hover {
-  color: #535bf2;
-} */
+  border-bottom: 0.1em solid var(--accent-color);
+  color: var(--accent-color);
+} 
 
 body {
   margin: 0;
@@ -35,24 +40,25 @@ h1 {
   line-height: 1.01;
 }
 
-/* button {
+button {
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  border: 3px solid white;
+  padding: 0.5em 1em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: transparent;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: border-color 0.25s, color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-} */
+} 
 
 /*
 @media (prefers-color-scheme: light): This is a media query that targets devices 
