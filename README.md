@@ -1,3 +1,3 @@
-# Rena Bi - Software Engineer Portfolio
+# Rena Bi - CS Portfolio
 
-A website developed by me, about me
+Website for Rena Bi, CS/AMS student at JHU.
