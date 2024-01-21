@@ -8,11 +8,13 @@
   align-items: center;
   padding: 1em 2em;
   color: white;
+  background-color: var(--bg-color);
   position: fixed;
   margin: 0;
   top: 0;
   left: 0;
   width: 100%;
+  min-height: 5em;
   z-index: 1000;
   font-size: 1em;
 }
@@ -25,11 +27,10 @@
 .right-section {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .right-section span {
-  padding-left: 1.5em;
+  padding-left: 2em;
 }
 
 .home {

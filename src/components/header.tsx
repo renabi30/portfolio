@@ -10,13 +10,13 @@ const Header = () => {
       <div className="right-section">
         <NavLink style={({ isActive }) => {
             return {
-                borderBottom: isActive ? "0.1em solid var(--text-color)" : "",
+                borderBottom: isActive ? "0.2em solid var(--text-color)" : "",
             };
         }} to={'/'}>Home</NavLink>
         <span></span>
         <NavLink style={({ isActive }) => {
             return {
-                borderBottom: isActive ? "0.1em solid var(--text-color)" : "",
+                borderBottom: isActive ? "0.2em solid var(--text-color)" : "",
             };
         }} to={'/about'}>About</NavLink>
         <span></span>

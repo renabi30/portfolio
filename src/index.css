@@ -5,9 +5,10 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.833);
-  background-color: rgba(74, 139, 106, 0.749);
+  background-color: #3B6C53;
   --accent-color: rgba(182, 255, 219, 0.683);
   --text-color: rgba(255, 255, 255, 0.833);
+  --bg-color: #3B6C53;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -16,14 +17,14 @@
 }
 
 a {
-  font-weight: 500;
-  color: inherit;
+  font-weight: 400;
+  color: var(--text-color);
   text-decoration: none;
   transition: border-bottom 0.25s;
-  border-bottom: 0.1em solid transparent;
+  border-bottom: 0.2em solid transparent;
 }
 a:hover {
-  border-bottom: 0.1em solid var(--accent-color);
+  border-bottom: 0.2em solid var(--accent-color);
   color: var(--accent-color);
 } 
 
@@ -31,18 +32,18 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  font-size: 2.5em;
+  font-size: 1.2em;
   min-height: 100vh;
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3em;
   line-height: 1.01;
 }
 
 button {
   border-radius: 8px;
-  border: 3px solid white;
+  border: 3px solid var(--text-color);
   padding: 0.5em 1em;
   font-size: 1em;
   font-weight: 500;
