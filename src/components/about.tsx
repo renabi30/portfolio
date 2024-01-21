@@ -22,7 +22,7 @@ const About = () => {
   `
 
   const about_p4 = `
-    Developed using Figma, coded in Visual Studio Code using React and TypeScript, deployed using Github ⭐️
+    Designed using Figma, coded in Visual Studio Code using React and TypeScript, deployed using Github ⭐️
   `
 
   const containerStyle: CSS.Properties = {
