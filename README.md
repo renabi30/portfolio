@@ -1,3 +1,3 @@
-# Rena Bi - CS Portfolio
+# Rena Bi - Portfolio
 
-Website for Rena Bi, CS/AMS student at JHU.
+Website portfolio for Rena Bi, CS/AMS student at JHU.

@@ -61,15 +61,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 } 
 
-/*
-@media (prefers-color-scheme: light): This is a media query that targets devices 
-where the user has a preference for a light color scheme. 
-It allows you to apply specific styles when the user's device is set to a light theme.
-
-:root: This selector is used to define global styles. In this case, it sets the text color (color) to #213547 and the background color (background-color) to #ffffff for the root of the document (usually the <html> element).
-a:hover: This targets anchor (<a>) elements when they are being hovered over. It sets the text color to #747bff when the user hovers over a link.
-button: This targets <button> elements and sets their background color to #f9f9f9.
-*/
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

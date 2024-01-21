@@ -80,30 +80,3 @@ const About = () => {
 
 export default About;
 
-/*
- width: '100%', height: 'auto', overflow:'hidden',position: 'sticky', top: '0'
-{ width:'40%', placeItems:'center', float:'left', flex:1, position:'sticky'}
-
-    staticLeft: {
-      width:'40%',
-      float:'left'
-    },
-    scrollRight: {
-      width:'60%',
-      float:'right',
-      flex:'1',
-      overflowY:'auto',
-      padding:'20px',
-    },
-
-
-<div style={{width:'40%',position:'sticky',top:'5em',textAlign:'left',padding:'2em'}}> 
-        <img src="/profile.jpeg" width="100%" />
-      </div>
-      <div style={{width:'60%', float:'right', overflowY:'scroll', textAlign:'left', display:'grid'}}> 
-        <span>Nice to meet you!</span>
-        <span style={{paddingTop:'0.5em'}}>{about_p1}</span>
-        <span style={{paddingTop:'0.5em'}}>{about_p2}</span>
-        <span style={{fontSize:'0.7em', paddingTop:'2em'}}>{about_p3}</span>
-      </div>
-*/
