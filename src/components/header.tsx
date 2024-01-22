@@ -20,9 +20,6 @@ const Header = () => {
             };
         }} to={'/about'}>About</NavLink>
         <span></span>
-        <button>
-          <a href="" target = "_blank">Resume</a>
-        </button>
       </div>
     </header>
   );

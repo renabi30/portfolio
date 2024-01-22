@@ -65,7 +65,7 @@ const About = () => {
   return (
     <div style={containerStyle}>
       <div style={leftStyle}>
-        <img src="../assets/profile.jpeg" alt=":D" style={imgStyle}/>
+        <img src="src/assets/profile.jpeg" alt=":D" style={imgStyle}/>
       </div>
       <div style={rightStyle}>
         <span style={{marginBottom:'20px'}}>Nice to meet you!</span>
